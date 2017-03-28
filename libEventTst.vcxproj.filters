@@ -1,0 +1,255 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="头文件\server">
+      <UniqueIdentifier>{79cbc3d4-31b8-4283-af52-f78348c99abb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\server">
+      <UniqueIdentifier>{a8127fbb-4c1d-40cf-8949-e97dfbd9c961}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\log">
+      <UniqueIdentifier>{91c4ecc9-db64-4007-8033-4f3e47dbe944}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\log">
+      <UniqueIdentifier>{0c1e8a37-d54c-43ac-8e1f-a6f0ea880d0b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\common">
+      <UniqueIdentifier>{9911b66b-0365-476d-b2cb-66f290d4fd0a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\common">
+      <UniqueIdentifier>{c5ae71d6-30ee-4199-a158-8dc06c0578c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\db">
+      <UniqueIdentifier>{7d80766a-0afd-4d74-9896-a786fd6dea19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\db">
+      <UniqueIdentifier>{b00586bd-d7d2-4481-ace9-7691cde5acee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\tools">
+      <UniqueIdentifier>{826016a5-a2ac-4f2e-835b-619c44446045}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\tools">
+      <UniqueIdentifier>{bf995d13-e245-40a2-bb1e-009fa7371b58}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Exception.h">
+      <Filter>头文件\common</Filter>
+    </ClInclude>
+    <ClInclude Include="Macroes.h">
+      <Filter>头文件\common</Filter>
+    </ClInclude>
+    <ClInclude Include="HttpServer.h">
+      <Filter>头文件\server</Filter>
+    </ClInclude>
+    <ClInclude Include="Server.h">
+      <Filter>头文件\server</Filter>
+    </ClInclude>
+    <ClInclude Include="Logger.h">
+      <Filter>头文件\log</Filter>
+    </ClInclude>
+    <ClInclude Include="Level.h">
+      <Filter>头文件\log</Filter>
+    </ClInclude>
+    <ClInclude Include="LogEvent.h">
+      <Filter>头文件\log</Filter>
+    </ClInclude>
+    <ClInclude Include="Appender.h">
+      <Filter>头文件\log</Filter>
+    </ClInclude>
+    <ClInclude Include="Layout.h">
+      <Filter>头文件\log</Filter>
+    </ClInclude>
+    <ClInclude Include="FileAppender.h">
+      <Filter>头文件\log</Filter>
+    </ClInclude>
+    <ClInclude Include="SuperTime.h">
+      <Filter>头文件\common</Filter>
+    </ClInclude>
+    <ClInclude Include="SuperString.h">
+      <Filter>头文件\common</Filter>
+    </ClInclude>
+    <ClInclude Include="ConsoleAppender.h">
+      <Filter>头文件\log</Filter>
+    </ClInclude>
+    <ClInclude Include="LoggerFactory.h">
+      <Filter>头文件\log</Filter>
+    </ClInclude>
+    <ClInclude Include="Properties.h">
+      <Filter>头文件\common</Filter>
+    </ClInclude>
+    <ClInclude Include="SocketServer.h">
+      <Filter>头文件\server</Filter>
+    </ClInclude>
+    <ClInclude Include="AppenderFactory.h">
+      <Filter>头文件\log</Filter>
+    </ClInclude>
+    <ClInclude Include="LayoutFactory.h">
+      <Filter>头文件\log</Filter>
+    </ClInclude>
+    <ClInclude Include="SimpleLayout.h">
+      <Filter>头文件\log</Filter>
+    </ClInclude>
+    <ClInclude Include="LoggerRepository.h">
+      <Filter>头文件\log</Filter>
+    </ClInclude>
+    <ClInclude Include="ScopedLock.h">
+      <Filter>头文件\common</Filter>
+    </ClInclude>
+    <ClInclude Include="NonCopyable.h">
+      <Filter>头文件\common</Filter>
+    </ClInclude>
+    <ClInclude Include="DBConnection.h">
+      <Filter>头文件\db</Filter>
+    </ClInclude>
+    <ClInclude Include="DBProperties.h">
+      <Filter>头文件\db</Filter>
+    </ClInclude>
+    <ClInclude Include="MySQLDBConnection.h">
+      <Filter>头文件\db</Filter>
+    </ClInclude>
+    <ClInclude Include="RedisDBConnection.h">
+      <Filter>头文件\db</Filter>
+    </ClInclude>
+    <ClInclude Include="ConnectionPool.h">
+      <Filter>头文件\db</Filter>
+    </ClInclude>
+    <ClInclude Include="ConnectionFactory.h">
+      <Filter>头文件\db</Filter>
+    </ClInclude>
+    <ClInclude Include="ConnectionPoolManager.h">
+      <Filter>头文件\db</Filter>
+    </ClInclude>
+    <ClInclude Include="RuntimePara.h">
+      <Filter>头文件\common</Filter>
+    </ClInclude>
+    <ClInclude Include="MultiThreadServer.h">
+      <Filter>头文件\server</Filter>
+    </ClInclude>
+    <ClInclude Include="Parser.h">
+      <Filter>头文件\tools</Filter>
+    </ClInclude>
+    <ClInclude Include="XMLParser.h">
+      <Filter>头文件\tools</Filter>
+    </ClInclude>
+    <ClInclude Include="JSONParser.h">
+      <Filter>头文件\tools</Filter>
+    </ClInclude>
+    <ClInclude Include="ParserPool.h">
+      <Filter>头文件\tools</Filter>
+    </ClInclude>
+    <ClInclude Include="ParserFactory.h">
+      <Filter>头文件\tools</Filter>
+    </ClInclude>
+    <ClInclude Include="RedisClusterResult.h">
+      <Filter>头文件\db</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="HttpServer.cpp">
+      <Filter>源文件\server</Filter>
+    </ClCompile>
+    <ClCompile Include="SocketServer.cpp">
+      <Filter>源文件\server</Filter>
+    </ClCompile>
+    <ClCompile Include="Logger.cpp">
+      <Filter>源文件\log</Filter>
+    </ClCompile>
+    <ClCompile Include="Level.cpp">
+      <Filter>源文件\log</Filter>
+    </ClCompile>
+    <ClCompile Include="Appender.cpp">
+      <Filter>源文件\log</Filter>
+    </ClCompile>
+    <ClCompile Include="FileAppender.cpp">
+      <Filter>源文件\log</Filter>
+    </ClCompile>
+    <ClCompile Include="SuperTime.cpp">
+      <Filter>源文件\common</Filter>
+    </ClCompile>
+    <ClCompile Include="SuperString.cpp">
+      <Filter>源文件\common</Filter>
+    </ClCompile>
+    <ClCompile Include="ConsoleAppender.cpp">
+      <Filter>源文件\log</Filter>
+    </ClCompile>
+    <ClCompile Include="LoggerFactory.cpp">
+      <Filter>源文件\log</Filter>
+    </ClCompile>
+    <ClCompile Include="Properties.cpp">
+      <Filter>源文件\common</Filter>
+    </ClCompile>
+    <ClCompile Include="AppenderFactory.cpp">
+      <Filter>源文件\log</Filter>
+    </ClCompile>
+    <ClCompile Include="LayoutFactory.cpp">
+      <Filter>源文件\log</Filter>
+    </ClCompile>
+    <ClCompile Include="SimpleLayout.cpp">
+      <Filter>源文件\log</Filter>
+    </ClCompile>
+    <ClCompile Include="ScopedLock.cpp">
+      <Filter>源文件\common</Filter>
+    </ClCompile>
+    <ClCompile Include="LoggerRepository.cpp">
+      <Filter>源文件\log</Filter>
+    </ClCompile>
+    <ClCompile Include="DBConnection.cpp">
+      <Filter>源文件\db</Filter>
+    </ClCompile>
+    <ClCompile Include="DBProperties.cpp">
+      <Filter>源文件\db</Filter>
+    </ClCompile>
+    <ClCompile Include="MySQLDBConnection.cpp">
+      <Filter>源文件\db</Filter>
+    </ClCompile>
+    <ClCompile Include="RedisDBConnection.cpp">
+      <Filter>源文件\db</Filter>
+    </ClCompile>
+    <ClCompile Include="ConnectionPool.cpp">
+      <Filter>源文件\db</Filter>
+    </ClCompile>
+    <ClCompile Include="ConnectionFactory.cpp">
+      <Filter>源文件\db</Filter>
+    </ClCompile>
+    <ClCompile Include="ConnectionPoolManager.cpp">
+      <Filter>源文件\db</Filter>
+    </ClCompile>
+    <ClCompile Include="RuntimePara.cpp">
+      <Filter>源文件\common</Filter>
+    </ClCompile>
+    <ClCompile Include="MultiThreadServer.cpp">
+      <Filter>源文件\server</Filter>
+    </ClCompile>
+    <ClCompile Include="TestServer.cpp">
+      <Filter>源文件\server</Filter>
+    </ClCompile>
+    <ClCompile Include="JSONParser.cpp">
+      <Filter>源文件\tools</Filter>
+    </ClCompile>
+    <ClCompile Include="XMLParser.cpp">
+      <Filter>源文件\tools</Filter>
+    </ClCompile>
+    <ClCompile Include="ParserPool.cpp">
+      <Filter>源文件\tools</Filter>
+    </ClCompile>
+    <ClCompile Include="ParserFactory.cpp">
+      <Filter>源文件\tools</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
